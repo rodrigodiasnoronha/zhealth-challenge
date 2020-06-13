@@ -3,6 +3,7 @@
 -   `npm i` ou `yarn` no diretório raiz
 -   Criar arquivo `.env` na raiz do projeto
 -   preencher de acordo com o arquivo `.env.example` no diretório raiz
+-   O projeto está utilizando o Mongo Atlas, então caso não queira preencher com os dados de sua conta, poderá usar a padrão no `.env.example`
 -   iniciar aplicação: `npm run dev:serve` ou `yarn dev:serve`
 -   testar aplicação: `npm run test` ou `yarn test`
 
@@ -31,4 +32,5 @@
 -   [x] Jest (testes)
 -   [x] TypeScript
 -   [x] JWT
--   [x] Bcryptjs -[x] Prettier e ESLINT
+-   [x] Bcryptjs 
+-   [x] Prettier e ESLINT
