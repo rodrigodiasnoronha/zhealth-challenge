@@ -18,6 +18,10 @@
 | /medical_prescriptions | post | cria prescrição médica (para paciente) | cpf_patient: string name_patient: string birth_patient: date dosage: string frequency_use: string medicines: string (precisa ser o id do medicamento separado por virgula) | true          |
 | /doctors               | post | criar um doutor novo                   | name: string email: string password: string crm: number crm_state: string gender : string cpf: string birth: date                                                          | false         |
 
+## Fazer Login
+
+-   Enviar o `email` e `password` para a rota `/login`, ela irá retornar o token no body da response da requisição. Coloque o token no header de cada requisição que necessite estar logado na aplicação
+
 ## Techs usadas :octocat:
 
 -   [x] Node.js
